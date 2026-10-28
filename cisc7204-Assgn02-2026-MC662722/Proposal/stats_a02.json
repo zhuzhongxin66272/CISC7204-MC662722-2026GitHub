@@ -1,0 +1,240 @@
+{
+ "n_merged": 5533,
+ "n_adults": 5265,
+ "n_complete": 4846,
+ "n_model": 4795,
+ "mean_age": 51.4,
+ "female_pct": 51.7,
+ "active_pct": 46.2,
+ "mean_bmi": 29.9,
+ "mean_phq9": 3.33,
+ "dep_pct": 9.4,
+ "severity": {
+  "Minimal (0-4)": [
+   3590,
+   74.1
+  ],
+  "Mild (5-9)": [
+   801,
+   16.5
+  ],
+  "Moderate (10-14)": [
+   286,
+   5.9
+  ],
+  "Mod-severe (15-19)": [
+   120,
+   2.5
+  ],
+  "Severe (20-27)": [
+   49,
+   1.0
+  ]
+ },
+ "dep_active_pct": 6.280193236714976,
+ "dep_inactive_pct": 12.144803425457376,
+ "chi2": 48.11,
+ "p_chi": 4.02463893871864e-12,
+ "dof": 1,
+ "dose": {
+  "None": [
+   3.94,
+   2569
+  ],
+  "Moderate only": [
+   2.87,
+   1124
+  ],
+  "Vigorous only": [
+   2.32,
+   336
+  ],
+  "Both": [
+   2.48,
+   817
+  ]
+ },
+ "paradox": {
+  "No|Active": [
+   2.33,
+   1040
+  ],
+  "No|Inactive": [
+   3.72,
+   1516
+  ],
+  "Yes|Active": [
+   2.91,
+   1234
+  ],
+  "Yes|Inactive": [
+   4.25,
+   1049
+  ]
+ },
+ "or": {
+  "age (per year)": [
+   1.0,
+   0.99,
+   1.0,
+   0.6915825664145119
+  ],
+  "female": [
+   1.41,
+   1.15,
+   1.72,
+   0.0009580287838135093
+  ],
+  "BMXBMI": [
+   1.02,
+   1.01,
+   1.03,
+   0.003343691468205097
+  ],
+  "leisure-time activity": [
+   0.49,
+   0.39,
+   0.6,
+   3.9187801093937144e-11
+  ],
+  "occupational activity": [
+   1.34,
+   1.1,
+   1.65,
+   0.004171320867899628
+  ]
+ },
+ "or_n": 4788,
+ "or_r2": 0.026,
+ "ageband": {
+  "20-34": {
+   "Active": 2.82,
+   "Inactive": 3.95
+  },
+  "35-49": {
+   "Active": 2.86,
+   "Inactive": 3.76
+  },
+  "50-64": {
+   "Active": 2.54,
+   "Inactive": 4.36
+  },
+  "65-80": {
+   "Active": 2.3,
+   "Inactive": 3.63
+  }
+ },
+ "mean_act": 2.65,
+ "mean_inact": 3.94,
+ "t": -9.81,
+ "p_t": 1.6755444851627938e-22,
+ "d": 0.28,
+ "mean_male": 2.94,
+ "mean_female": 3.71,
+ "t_sex": -5.74,
+ "p_sex": 9.915861480691166e-09,
+ "net_n": 4846,
+ "n_edges": 28,
+ "strength": {
+  "Sad mood": 1.12,
+  "Self-worth": 1.05,
+  "Fatigue": 0.92,
+  "Concentration": 0.82,
+  "Sleep": 0.78,
+  "Appetite": 0.75,
+  "Psychomotor": 0.75,
+  "Anhedonia": 0.73,
+  "Self-harm": 0.6
+ },
+ "top_edges": [
+  [
+   "Sleep",
+   "Fatigue",
+   0.313
+  ],
+  [
+   "Self-worth",
+   "Self-harm",
+   0.292
+  ],
+  [
+   "Sad mood",
+   "Self-worth",
+   0.274
+  ],
+  [
+   "Anhedonia",
+   "Sad mood",
+   0.256
+  ],
+  [
+   "Concentration",
+   "Psychomotor",
+   0.184
+  ],
+  [
+   "Fatigue",
+   "Appetite",
+   0.179
+  ]
+ ],
+ "gs_active": 7.59,
+ "gs_inactive": 7.58,
+ "n_net_active": 2277,
+ "n_net_inactive": 2569,
+ "perm_p": 0.986,
+ "symptom_table": [
+  {
+   "Symptom": "Fatigue",
+   "Mean score (0-9)": 0.76,
+   "% >= 2 (more than half the days)": 16.3
+  },
+  {
+   "Symptom": "Sleep",
+   "Mean score (0-9)": 0.64,
+   "% >= 2 (more than half the days)": 15.1
+  },
+  {
+   "Symptom": "Appetite",
+   "Mean score (0-9)": 0.4,
+   "% >= 2 (more than half the days)": 9.2
+  },
+  {
+   "Symptom": "Anhedonia",
+   "Mean score (0-9)": 0.4,
+   "% >= 2 (more than half the days)": 8.8
+  },
+  {
+   "Symptom": "Sad mood",
+   "Mean score (0-9)": 0.36,
+   "% >= 2 (more than half the days)": 7.3
+  },
+  {
+   "Symptom": "Concentration",
+   "Mean score (0-9)": 0.27,
+   "% >= 2 (more than half the days)": 6.0
+  },
+  {
+   "Symptom": "Self-worth",
+   "Mean score (0-9)": 0.26,
+   "% >= 2 (more than half the days)": 5.0
+  },
+  {
+   "Symptom": "Psychomotor",
+   "Mean score (0-9)": 0.18,
+   "% >= 2 (more than half the days)": 4.0
+  },
+  {
+   "Symptom": "Self-harm",
+   "Mean score (0-9)": 0.06,
+   "% >= 2 (more than half the days)": 1.1
+  }
+ ],
+ "severity_order": [
+  "Minimal (0-4)",
+  "Mild (5-9)",
+  "Moderate (10-14)",
+  "Mod-severe (15-19)",
+  "Severe (20-27)"
+ ]
+}
