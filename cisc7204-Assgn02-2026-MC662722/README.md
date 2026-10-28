@@ -46,3 +46,10 @@ The proposal uses the NHANES 2017 – March 2020 public-use files of the Nationa
 Center for Health Statistics, converted from the official SAS-XPORT format to
 CSV:
 https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017
+
+## Use of AI
+
+Part of the writing and code in this folder was prepared with the assistance of
+an AI assistant (QwenWork desktop assistant), as declared in the corresponding
+forum postings on UMMoodle. The student reviewed the content and is responsible
+for it.
